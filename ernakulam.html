@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ERNAKULAM </title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+      /* padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white; */
+    } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: #333;
+      margin-top:-6px;
+      padding-left: 79%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    .side p{
+        margin-top:15%;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(121, 236, 13);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">WHERE TO GO</a>
+      
+      
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> ERNAKULAM </h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image/ernakulammap.png" width="250" height="250" ></div>
+        <br>
+        <p> Sprawling, residential Ernakulam is known for Marine Drive, a busy waterfront promenade where boats offer backwater cruises. The Kerala Folklore and Hill Palace museums explore local heritage through art and antiquities. Shops along Broadway and on MG Road sell fabrics, crafts, and spices, while modern Lulu Mall also has a cinema and an ice rink. Simple eateries serve Keralan specialties and South Indian seafood. </p>      
+    
+         </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3> MUSEUM OF KERALA HISTORY</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/museum ernakulam.jpg" width="300" height="200"></div><br>
+        
+        <p> Kerala Museum at Edapally, Kochi, India, is one of the oldest art and history museums in Kochi. It is managed by the Madhavan Nayar Foundation, a registered Public Charitable Trust, established in 1984, founded by philanthropist and entrepreneur R. Madhavan Nayar. The museum was opened to visitors in 1987. Kerala Museum has three galleries: the Museum of Kerala History, the Dolls Museum and the Gallery of Modern Art. </p>
+       <h3> VYPIN </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/vypin ernakulam.jpg"width="300" height="200"></div><br>
+        <p> Vypin is one of the group of islands that form part of the city of Kochi, in the Indian state of Kerala. Vypin forms a barrier island which lies between the Arabian Sea in the west and the Cochin backwaters formed by the various distributaries of Periyar river, in the east. The northernmost end of the island lies on the estuary of the Periyar river in Muziris and the southernmost end in the mouth of the Cochin Backwaters in Kalamukku near Fort Vype. The island is about 27 kilometres long and is connected to mainland Kochi by a series of bridges known as the Goshree bridges, which start at Kalamukku in Vypin, touch other two islands and then finish at Marine Drive covering a total distance of around 3 km. </p>
+        <h3>SANTA CRUZ CATHEDRAL BASILICA </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/santacruz ernakulam.jpg"width="300" height="200"></div><br>
+        
+        <p> The Santa Cruz Cathedral Basilica at Fort Kochi, Kochi is one of the nine Basilicas in Kerala. Counted as one of the heritage edifices of Kerala, this church is one of the finest and most impressive churches in India and visited by tourists the whole year round. It is a place of devotion as well as a center of historic significance, endowed with architectural and artistic grandeur and colours of the gothic style. The basilica serves as the Cathedral church of the Diocese of Cochin. It was built originally by the Portuguese and elevated to a Cathedral by Pope Paul IV in 1558, was spared by the Dutch conquerors who destroyed many Catholic buildings. Later the British demolished the structure and João Gomes Ferreira commissioned a new building in 1887. Consecrated in 1905, Santa Cruz was proclaimed a Basilica by Pope John Paul II in 1984.</p>
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    
+    </body>
+    </html>

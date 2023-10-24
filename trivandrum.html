@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TRIVANDRUM</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+      /* padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white; */
+    } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: #333;
+      margin-top: -6px;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    .side p{
+        margin-top:15%;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(60, 235, 25);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">WHERE TO GO</a>
+      
+      
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> TRIVANDRUM </h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image/tvmmap.png" width="250" height="250" ></div>
+        <br><br>
+        <p>Thiruvananthapuram is the one of the major district of Kerala State of India. It is the southernmost district of Kerala.Thiruvananthapuram, or Trivandrum, as it was conveniently re-christened by the English, is the southern-most district and Thiruvananthapuram city is the district headquarters as well as the State capital of Kerala. Thiru Anantha Puram, or the city of the Holy Anantha, is named after Ananthan, the cosmic serpent with a thousand heads, on whose coils Lord Mahavishnu reclines.The economy of Thiruvananthapuram district mostly consists of tourism and leisure, information technology, agriculture and education.Agriculture has been the primary occupation of the people of the district. Cultivable land may be classified as wet, dry, garden and plantations. Rice is the most important crop cultivated in the wet lands. </p>      
+    </p>
+         </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3>SREE PADMANABHASWAMY</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/sree-padmanabhaswamy tvm.jpg" width="300" height="200"></div>
+        <br>
+        <p>  This temple was in my list since so long, felt very nice and calm when i visited it. During my 3 day stay in Trivandrum, we made it a point to visit Sree padmanabhswamy temple every day.. we took special entry ticket on one day and normal darshan other 2 days... both were good... would recommend special entry as you can spend a lot of time near the god and pray peacefully !! strict Dress code maintains the decorum.. Loved the temple and sanctum sancotrum... Jai Sree Padmanabhsway !! </p>
+       <h3> NAPIER MUSEUM </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/napiertvm.webp" width="300" height="200"></div><br>
+        
+        <p> Named after Lord Napier, this art and history museum was established in 1855. An exemplary example of gothic architecture-style, Napier Museum boasts greatly of its natural air conditioning system. It houses an exceptional collection of ornaments, bronze idols, chariots, and ivory carvings.The great contribution made by Rajput, Mughal, and Tanjore schools of art along with the skillful work by several Chinese, Japanese, and Tibetan artists can be found in here. The Japanese leather figures depicting the epics of Mahabharata and Ramayana catch the eyes of tourists.  </p>
+        <br>
+        <h3> PONMUDI</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image/ponmuditvm.jpg" width="300" height="200"></div><br>
+        
+        <p> The captivating hill station of Ponmudi is at a distance of 61 kms from Trivandrum. It is situated 915 meters above sea level and offers respite from the heat and hustle and bustle of other cities. Its narrow, meandering pathways, dark woods and soothing climate make it a splendid location to spend a holiday at. A multitude of colourful butterflies, springs and rapids, myriad species wild flowers and the deer park nearby are the key attraction of this fascinating hill station.
+            </p>
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    
+    </body>
+    </html>
